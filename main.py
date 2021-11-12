@@ -1,7 +1,6 @@
 import io
 import os
 
-import cv2
 import nest_asyncio
 import uvicorn
 # from PIL import Image

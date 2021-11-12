@@ -1,0 +1,5 @@
+fastapi
+py-rete==0.0.7.dev39
+python-dotenv
+pydantic
+uvicorn
