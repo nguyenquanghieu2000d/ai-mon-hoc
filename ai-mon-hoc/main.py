@@ -14,7 +14,7 @@ from rete import tinhluong
 import numpy as np
 
 load_dotenv()
-HOST = os.getenv("HOST")
+# HOST = os.getenv("HOST")
 app = FastAPI()
 LIST_BANG_CAP = ["Cử nhân", "Thạc sĩ", "Tiến sĩ", "Phó giáo sư", "Giáo sư", "Khác"]
 # vgg = Vgg16DetectFace()
@@ -107,9 +107,10 @@ def read_item(item: Item):
 #     return data
 
 
-PORT = 8000
+# PORT = 8000
 # ngrok_tunnel = ngrok.connect(PORT)
 # print('Public URL:', ngrok_tunnel.public_url)
-nest_asyncio.apply()
-uvicorn.run(app, host=HOST, port=PORT)
+# nest_asyncio.apply()
+# uvicorn.run(app, host=HOST, port=PORT)
+# uvicorn.run(app, host=HOST, port=PORT)
 # uvicorn.run(app, port=PORT)
